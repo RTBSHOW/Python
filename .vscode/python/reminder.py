@@ -1,0 +1,10 @@
+a=int(input("Enter a number:"))
+b=int(input("Enter a number to devide by :"))
+n=a%b
+print("The reminder is",n)
+c=input("Enter a number :")
+print(c)
+print(type(c))
+c=float(c)
+print(type(c))
+print("reminder of n and c is",float(n%c))
